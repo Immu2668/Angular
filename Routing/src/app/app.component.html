@@ -1,0 +1,16 @@
+<div class="container bg-light shadow">
+  <div class="navbar">
+    <ul>
+      <li><img src="https://c.smartrecruiters.com/sr-company-logo-prod/53271921e4b09329f215bca4/huge?r=s3&_1418664289891" alt="" width="100px"></li>
+      <li><a routerLink="/Home" [routerLinkActive]="'active'">Home</a></li>
+      <li><a routerLink="/Courses" [routerLinkActive]="'active'">Courses</a></li>
+      <li><a routerLink="/Contact" [routerLinkActive]="'active'">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container mt-2 p-5 shadow">
+  <div class="content-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
